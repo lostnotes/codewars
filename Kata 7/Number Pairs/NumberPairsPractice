@@ -1,0 +1,7 @@
+function getLargerNumbers(a, b) {
+  const largerArray = [];
+  for (let i = 0; i < a.length; i++) {
+   a[i] > b[i] ? largerArray.push(a[i]) : largerArray.push(b[i]);
+    }
+  return largerArray;
+}
