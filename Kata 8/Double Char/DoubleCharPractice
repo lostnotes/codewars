@@ -1,0 +1,9 @@
+function doubleChar(str) {
+  let newStr = "";
+  let i = 0;
+  while (i < str.length) {
+    newStr += str[i] + str[i];
+    i++
+  }
+  return newStr;
+}
